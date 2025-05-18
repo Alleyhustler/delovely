@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>404</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Sweet as peanut butter and just as nutty" />
+  <link rel="icon" href="../img/icons/favicon.gif">
+  <link rel="stylesheet" href="../css/style.css">
+  <!-- RSS feeds -->
+  <link rel="alternate" href="https://delovely.neocities.org/feed.xml" type="application/atom+xml" title="">
+</head>
+  <body>
+  <main>
+  <nav class="top">
+  <a href="/"><h1>delovely</h1></a><br>
+  <a href="../writing/">Blog</a>
+  <a href="../gallery/">Gallery</a>
+  <a href="../poetry/">Poetry</a>
+  <a href="../links/">Links</a>
+  <a href="../zines/">Zines</a><br>
+  </nav>
+    <article>
+    
+<h2>404: Page not found</h2>
+
+<p style="text-align: center">Don&rsquo;t you think you&rsquo;ve seen enough?</p>
+    </article>
+  </main>
+  <footer>
+    <nav>
+    <img src="../img/buttons/delovely.png" class="pixel" alt="A button that says delovely, featuring flowers on the ground and two geese flying through the sky" loading="lazy"><br>
+    made with <span role="text" aria-label="love">&#9825;</span> 2022-2025<br>
+    <a href="../colophon/">Colophon</a>
+    <a href="../sitemap/">Sitemap</a>
+    <a href="../updatelog/">Update log</a>
+  </nav>
+  </footer>
+  </body>
+</html>

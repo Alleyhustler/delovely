@@ -1,0 +1,401 @@
+/* fonts */
+
+@font-face {
+  font-family: 'Atkinson';
+  src: url(../fonts/fonts-Atkinson-Hyperlegible-Regular-102a.woff2);
+}
+
+@font-face {
+  font-family: 'Noto';
+  src: url(../fonts/fonts-NotoEmoji-Regular.ttf);
+}
+
+@font-face {
+font-family: 'Basteleur';
+src: url(../fonts/fonts-Basteleur-Bold.woff2),
+}
+
+
+@font-face {
+  font-family: 'Yrsa';
+  src: url(../fonts/fonts-Yrsa.woff2);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Yrsa';
+  src: url(../fonts/fonts-Yrsa-Italic-VariableFont_wght.ttf);
+  font-style: italic;
+}
+
+/* navbar */
+
+img {
+  max-width: 100%;
+}
+
+.pixel {
+  image-rendering:optimizeSpeed;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 2rem;
+    text-transform: lowercase;
+  }
+
+  .top {
+    border-bottom: 1px dotted black;
+  }
+
+  nav a {
+    padding: 5px;
+    display: inline-block;
+    color:black;
+    text-decoration: none;
+    font-family: 'Yrsa', serif;
+    font-size: 1.2rem;
+  }
+
+  footer nav a {
+    text-decoration: 1px dotted underline black;
+  }
+
+  h1 {
+    text-align: center;
+    text-transform: lowercase;
+    font-family: 'Basteleur', 'Georgia', serif;
+    font-size: 2.2rem;
+    margin-bottom: .75rem;
+  }
+
+  h1 a {
+    font-family: 'Basteleur', 'Georgia', serif;
+    color:black;
+    text-decoration: none;
+  }
+
+  /* general styling */
+
+
+  ::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: black;
+    }
+    
+    ::selection {
+      color: white;
+      background: black;
+    }
+
+    body {
+      margin-inline: auto;
+      max-width: 65ch;
+      padding:20px;
+    font-family: 'Yrsa', serif;
+    font-size: 1.3rem;
+    }
+
+    code {
+      font-size: 1rem;
+    }
+
+  body p, ul, ol {
+    line-height: 2rem;
+  }
+
+  article p {
+    margin-bottom: 2.5rem;
+  }
+
+  article li {
+    margin-bottom: .5rem;
+  }
+
+  blockquote {
+    font-family: 'Yrsa', serif;
+    font-style: italic;
+    margin-left: 1rem;
+  }
+
+  blockquote em {
+    font-style: normal;
+  }
+
+  cite {
+    font-style: normal;
+  }
+
+    a {
+      color:black;
+      text-decoration: dotted 1px underline black;
+    }
+  
+    h2 {
+    font-weight: bold;
+    font-family: 'Yrsa', serif;
+    text-align: center;
+      }
+
+
+    h3 {
+      margin-top: 3rem;
+      font-weight: bold;
+      font-family: 'Yrsa', serif;
+        }
+      
+    h4 {
+    padding-top: 1px;
+    padding-bottom: -10px;
+    font-weight: bold;
+    font-family: 'Yrsa', serif;
+  }
+
+  footer {
+    padding-top: 1rem;
+  }
+
+  .emoji {
+    font-family: 'Noto';
+  }
+
+
+  .delovely {
+    font-style: italic;
+    text-transform: lowercase;
+  }
+  
+  .name {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+.note {
+  border:2px dashed black;
+  padding: 1rem;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: .5rem;
+}
+
+.note em {
+  font-weight: bold;
+}
+
+hr {
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  text-align: center;
+}
+
+hr:after {
+  content: "☯";
+  color:black;
+  font-family: 'Noto Sans';
+  display: inline-block;
+  position: relative;
+}
+
+figure, figcaption {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+figcaption {
+  max-width: 90%;
+  font-size: smaller;
+}
+
+code {
+  background-color: #f6f6f6;
+  padding: 5px;
+}
+
+
+.pagination a {
+  text-decoration: 1px underline dotted;
+  font-size: 1.2rem;
+}
+
+.pagination ul {
+  list-style: none;
+  list-style-position: inside;
+  padding:0;
+  margin: 0;
+}
+
+.pagination li {
+  display: inline;
+  text-align: center;
+}
+
+.pagination li::before {
+    content: "\200B"; /* add zero-width space */
+  }
+
+  .picborder {
+    border:1px solid black;
+  }
+  
+  .live {
+    filter: grayscale(100);
+  }
+
+  /* table */
+
+
+  th {
+    text-align: left;
+  }
+
+  /* markdown-it-footnotes */
+
+  .footnotes-sep {
+    border-bottom: 1px dotted black;
+  }
+
+  .footnotes-sep:after {
+        content: " ";
+      }
+
+  .footnote-item p {
+    font-size:1.2rem;
+  }
+
+  .footnote-item {
+    padding-bottom: 0rem;
+  }
+  
+  .footnotes li:target {
+    outline: 2px dotted;
+    outline-color: var(--link-alt);
+    outline-offset: 3px;
+}
+
+  .footnote-ref:hover {
+    outline: 3px dotted;
+    outline-offset: 5px;
+    outline-color: var(--accent-light);
+  }
+  /* dark mode */
+
+  @media (prefers-color-scheme: dark) {
+
+    body {
+        background-color: #161616;
+        color:white;
+    }
+    
+    .invertable {
+        filter:invert(100);
+    }
+    
+    a {
+    color:white;
+    text-decoration: dotted 1px underline white;
+    }
+
+    h1 a {
+      color:white;
+    }
+
+    nav a {
+      color:white;
+    }
+
+    footer nav a {
+      text-decoration: 1px dotted underline white;
+    }
+
+
+  .top {
+    border-bottom: 1px dotted white;
+  }
+  
+
+    ::-moz-selection { /* Code for Firefox */
+      background-color: rgb(230, 230, 230);
+      color:rgb(23, 23, 23);
+      }
+      
+      ::selection {
+        background-color: rgb(230, 230, 230);
+        color:rgb(23, 23, 23);
+      }
+.note {
+  border:1px dashed white;
+}
+
+.note:before {
+  color:white;
+}
+
+
+hr:after {
+  color:white;
+}
+
+code {
+  background-color: #303030;
+}
+
+.spoiler {
+  filter:blur(5px);
+  transition: 0.5s;
+}
+
+.spoiler:hover {
+  filter:none;
+  transition: 0.5s;
+}
+
+.di {
+  filter: invert(100);
+  max-width: 120px;
+  float: right;
+}
+
+.footnotes-sep {
+  border-bottom: 1px dotted white;
+}
+
+  .picborder {
+      border:1px solid white;
+  }
+
+  .live {
+    filter:grayscale(100%) invert(100%);
+  }
+    }
+
+
+    /* responsive */
+
+        @media screen and (min-width:800px) {
+            body {
+            padding-left: 25%;
+            padding-right:25%;
+            margin-top: 2%;
+            }
+            
+            figcaption {
+              max-width: 70%;
+            }
+
+            .di {
+              float: right;
+              max-width: 100%;
+            }
+
+            .bookcover {
+              float: right;
+            }
+
+            blockquote {
+              margin-left: 2rem;
+            }
+        }
